@@ -1,0 +1,7 @@
+{
+    "name": "qobo/qobo-robo-cakephp",
+    "description": "CakePHP tasks and commands for QoboRobo",
+    "type": "robo-tasks",
+    "license": "MIT",
+    "require": {}
+}
