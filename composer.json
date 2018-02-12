@@ -3,5 +3,10 @@
     "description": "CakePHP tasks and commands for QoboRobo",
     "type": "robo-tasks",
     "license": "MIT",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Qobo\\Robo\\": "src"
+        }
+    }
 }
