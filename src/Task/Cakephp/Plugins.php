@@ -38,7 +38,7 @@ class Plugins extends \Qobo\Robo\AbstractCmdTask
     /**
      * {@inheritdoc}
      */
-    function run()
+    public function run()
     {
         $result = parent::run();
         if (!$result->wasSuccessful()) {
@@ -47,5 +47,4 @@ class Plugins extends \Qobo\Robo\AbstractCmdTask
 
         return Result::success($this, "Command run successfully", ['data' => $result->getData()['data'][0]['output']]);
     }
-
 }
