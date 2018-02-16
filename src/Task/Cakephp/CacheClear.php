@@ -38,7 +38,7 @@ class CacheClear extends \Qobo\Robo\AbstractCmdTask
     /**
      * {@inheritdoc}
      */
-    protected function run()
+    public function run()
     {
         $result = parent::run();
         if (!$result->wasSuccessful()) {
