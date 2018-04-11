@@ -4,9 +4,10 @@
     "type": "robo-tasks",
     "license": "MIT",
     "require": {
-        "qobo/qobo-robo": "^1.0"
+        "qobo/qobo-robo": "^2.0"
     },
     "require-dev": {
+        "phpunit/phpunit": "*",
         "squizlabs/php_codesniffer": "*"
     },
     "autoload": {
